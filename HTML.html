@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Family.JS</title>
+<link rel="stylesheet" href="CSS.css">
+
+</head>
+
+<body>
+
+<div id="one">
+  <form>
+<select id="dropOne">
+
+</select>
+
+<input type="text" name="New Person" value="Type here" id="perInput">
+<button id="buttonAddPer" type="button">Add a New Person</button>
+  </form>
+</div>
+
+
+<div>
+  <form>
+  <table id="tab1">
+    <tr>
+      <th>Country</th>
+      <td><input type="text" name="Country" value="Oz" id="td1"></td>
+      <td><button id="saveBtn1" type="button">Save</button></td>
+    </tr>
+    <tr>
+      <th>City</th>
+      <td><input type="text" name="City" value="Utopia" id="td2"></td>
+      <td><button id="saveBtn2" type="button">Save</button></td>
+    </tr>
+    <tr>
+      <th>Spouse</th>
+      <td><input type="text" name="Spouse" value="John Doe" id="td3"></td>
+      <td><button id="saveBtn3" type="button">Save</button></td>
+    </tr>
+  </table>
+  </form>
+</div>
+<div>
+  <form>
+  <table id="tab2">
+    <tr>
+      <th colspan="4" id="MEGA">|--CHILDREN--|</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Action</th>
+    </tr>
+    <tbody id="insertDaRows">
+    </tbody>
+  </table>
+  </form>
+</div>
+<div>
+  <form>
+  <table>
+  <tr id="AddKid">
+    <td class="kidName"><input type="text" name="Name" value="Larry" id="larryBox"></td>
+    <td class="kidAge"><input type="text" name="Age" value="21" id="21Box"></td>
+    <td>
+      <select id='maleSelectAdd'>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+    </td>
+    <td><button id="addChild">Add</button></td>
+  </tr>
+  </table>
+  </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="JS.js"></script>
+</body>
+
+</html>
